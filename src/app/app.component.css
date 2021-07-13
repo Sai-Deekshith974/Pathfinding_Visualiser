@@ -1,0 +1,14 @@
+#container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(50,30px);
+    grid-auto-rows: initial; 
+    align-items: stretch;
+    margin-left:10px;
+  }
+  
+  #container .grid {
+    padding: 1em;
+    border: 1px solid rgb(143, 57, 17);
+    text-align: center;
+  }
